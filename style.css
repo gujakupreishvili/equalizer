@@ -1,0 +1,342 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+footer{
+  position: relative;
+}
+.h3-header{
+  font-size: 32px;
+  color: #191826;
+  padding-left: 24px;
+}
+.header-img{
+  width: 100%;
+  position: absolute;
+  top: -15%;
+  z-index: -2;
+}
+.h1-header{
+  font-size: 40px;
+  font-weight: 700;
+  color:#191826;
+  line-height: 48px;
+  padding-left: 24px;
+  margin-top: 65px;
+  font-family: IBM Plex Sans ;
+}
+.p-header{
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: IBM Plex Sans;
+  color: #191826;
+}
+/* main{
+  position: relative;
+} */
+.main-rect{
+  width:100%;
+  height: 600px;
+  background-color: #191826;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 300px;
+  z-index: -1;
+}
+.illusration-mobile{
+  width: 208px;
+  height: 430px;
+  margin-bottom: 138px;
+  margin-top: -700px;
+  /* margin-left: 400px; */
+  /* position: absolute;
+  top: 47%;
+  left: 40%; */
+}
+.orang-div{
+  width: 100%;
+  height: 546px;
+  background-color:#FA7453;
+  display: flex;
+  flex-direction: column;
+  margin-top: -35px;
+  border-radius: 12px;
+}
+.premium{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: IBM Plex Sans;
+  color: white;
+  padding-left: 50px;
+}
+.level-control{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: IBM Plex Sans;
+  color: white;
+  padding-left: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 327px;
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: -25px;
+}
+.h1-price{
+  font-size: 65px;
+  font-weight: 700;
+  font-family: IBM Plex Sans;
+  color: white;
+}
+.p-month{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: IBM Plex Sans;
+  color: white;
+  padding-top: 52px;
+  padding-left: 20px;
+}
+.ios-download{
+  display: flex;
+  flex-direction: row;
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  background-color: #191826;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: 30%;
+}
+.ios-download:hover{
+  background-color:#66E2DC;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.download{
+  font-family: IBM Plex Sans ;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.android-download{
+  display: flex;
+  flex-direction: row;
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  background-color: #FCFAF9;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.android-download:hover{
+  cursor: pointer;
+  background-color:#FFB964 ;
+  transition: 0.5s;
+}
+.download-2{
+  font-family: IBM Plex Sans ;
+  font-size: 18px;
+  font-weight: 700;
+  color: #191826;
+}
+.h3-footer{
+  font-size: 32px;
+  color: #191826;
+  padding-left: 24px;
+}
+.footer-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.footer-p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: IBM Plex Sans;
+  line-height: 26px;
+  width: 327px;
+  color: #191826;
+}
+.social-photos{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.header-img-tablet{
+  display: none;
+}
+.header-left-img{
+  display: none;
+}
+.header-img-desktop{
+  display: none;
+}
+@media screen and (min-width:740px) {
+  .header-img{
+    display: none;
+  }
+  .header-img-tablet{
+    display: block;
+    position: absolute;
+    margin-top: -501px;
+    margin-left: -284px;
+  }
+  .header-left-img{
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: 67%
+    /* display: flex;
+    justify-content: end;
+    align-items: end; */
+  }
+  .h1-header{
+    font-size: 64px;
+    line-height: 64px;
+    width: 520px;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .h3-header{
+    margin-bottom: 95px;
+    margin-left: 40px;
+  }
+  .p-header{
+    font-size: 18px;
+    width: 514px;
+    line-height: 28px;
+    margin-left: 40px;
+  }
+  .main-rect{
+    width: 800px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 250px;
+  }
+  .illusration-mobile{
+    width: 270px;
+    height: 556px;
+    margin-left: -354px;
+  }
+  .orang-div{
+    width: 400px;
+    height: 546px;
+    margin-top: -405px;
+    margin-left: 328px;
+    margin-bottom: 87px;
+  }
+  .ios-download{
+    margin-left: 50px;
+  }
+  .android-download{
+    margin-left: 50px;
+  }
+  .h3-footer{
+    margin-left: 40px;
+  }
+  .footer-info{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-p{
+    margin-top: 0px;
+    width: 366px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+  }
+  .social-photos{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+}
+@media screen and (min-width:1024px) {
+  .header-img-desktop{
+    display: none;
+    
+  }
+  .header-left-img{
+    position: absolute;
+    left: 77%;
+    top: -5%;
+  }
+  .h1-header{
+    font-size: 88px;
+    line-height: 88px;
+    width: 1050px;
+    margin-left: 5px;
+    z-index: 2;
+    /* margin-top: -2000px; */
+  }
+  .h3-header{
+    margin-left: 5px;
+  }
+  .p-header{
+    margin-left: 5px;
+    width: 825px;
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 180px;
+  }
+  .main-rect{
+    width: 1110px;
+  }
+  .illusration-mobile{
+    margin-left: -422px;
+    width: 280px;
+    height: 606px;
+  }
+  .orang-div{
+    width: 446px;
+    height: 625px;
+    margin-top: -411px;
+    margin-left: 670px;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-info{
+    align-items: center;
+  }
+  .h3-footer{
+    margin-top: -40px;
+  }
+  .footer-p{
+    margin-right: 300px;
+  }
+  .social-photos{
+    margin-right:60px ;
+  }
+
+
+  
+}
